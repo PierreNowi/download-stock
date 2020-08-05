@@ -1,0 +1,2 @@
+#There are several ways to get financial data into R. The most popular method is the quantmod package. You can install it by typing the command install.packages("quantmod") in your R console. The prices downloaded in by using quantmod are xts zoo objects. For our calculations we will use tidyquant package which downloads prices in a tidy format as a tibble. You can download the tidyquant package by typing install.packages("tidyquant") in you R console. tidyquant includes quantmod so you can install just tidyquant and get the quantmod packages as well.
+library(tidyquant)
